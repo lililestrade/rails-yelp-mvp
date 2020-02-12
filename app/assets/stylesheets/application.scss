@@ -11,3 +11,51 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.card {
+  border-radius: 10px;
+  margin: 25px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.landing-card {
+  position: relative;
+  bottom: 0px;
+  transition: 0.3s;
+}
+
+.landing-card:hover {
+  bottom: 4px;
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.create {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin: 20px;
+  text-align: left;
+}
+
+.form-group .btn {
+  justify-content: center;
+}
+
+.card-review {
+  width: 500px;
+}
+
